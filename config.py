@@ -1,4 +1,4 @@
-# Configuration - add your own config here
+# Configuration - add your own config here. See README for help.
 ZABBIX_URL =
 ZABBIX_API_TOKEN =
 GIT_DIR =
@@ -10,7 +10,7 @@ ZABBIX_SERVER =
 ZABBIX_TRAPPER_PORT =
 EXPORT_SEARCH_STR =
 
-# Zabbix template schema for structural validation
+# Zabbix template schema for structural validation.
 TEMPLATE_SCHEMA = {
     "type": "object",
     "required": ["zabbix_export"],
