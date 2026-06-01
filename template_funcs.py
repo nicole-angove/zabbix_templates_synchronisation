@@ -117,6 +117,7 @@ def export_template(template_id, template_name, export_dir):
         # Export configuration
         export_params = {
             "options": {"templates": [template_id]},
+            "prettyprint": True,
             "format": "json"
         }
 
